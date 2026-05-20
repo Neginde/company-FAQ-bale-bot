@@ -1,0 +1,37 @@
+# 🐍 Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 📦 Git & IDEs
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🪵 Logs & OS artifacts
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# 🧪 Tests
+test/
+tests/
+*.test
+
+# 📊 Raw Data Files (حذف فایل‌های خام برای سبک شدن ایمیج)
+Rasta FAQ.docx
+faq.json
+faq_normalized.json
+faq_embeddings.npy
